@@ -34,5 +34,35 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/struts2-spring-plugin-2.0.9.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xml-apis.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xwork-2.0.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/Concurrent.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/CrystalCharting.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/CrystalCommon.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/CrystalContentModels.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/CrystalDatabaseConnectors.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/CrystalExporters.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/CrystalExportingBase.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/CrystalFormulas.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/CrystalQueryEngine.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/CrystalReportEngine.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/CrystalReportingCommon.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/MetafileRenderer.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/ReportPrinter.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/URIUtil.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-configuration-1.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-lang-2.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/icu4j.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jrcadapter.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jrcerom.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/keycodeDecoder.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/rasapp.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/rascore.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/rpoifs.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/serialization.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/webreporting.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/webreporting-jsf.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>
