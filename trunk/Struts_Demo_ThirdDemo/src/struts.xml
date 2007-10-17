@@ -75,5 +75,12 @@
 
 	</package>
 
+	<package name="fileUploadDemo" extends="struts-default">
+		<action name="fileUpload"
+			class="com.gamiao.struts2.demo.thirddemo.action.FileUploadAction">
+			<interceptor-ref name="fileUploadStack" />
+			<result name="success">ShowUpload.jsp</result>
+		</action>
+	</package>
 
 </struts>

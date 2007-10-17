@@ -30,7 +30,7 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/ognl-2.6.11.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-2.0-final-20040126.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring.jar"/>
-	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/struts2-core-2.0.9.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/struts2-core-2.0.9.jar" sourcepath="D:/z_source/Struts2/struts-2.0.9-all/src"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/struts2-spring-plugin-2.0.9.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xml-apis.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xwork-2.0.4.jar"/>
@@ -64,5 +64,8 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xercesImpl.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/webreporting.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/webreporting-jsf.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/FCKeditor-2.3.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-fileupload-1.2.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>
