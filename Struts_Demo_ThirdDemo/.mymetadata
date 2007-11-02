@@ -3,7 +3,7 @@
   type="WEB"
   name="Struts_Demo_ThirdDemo"
   id="myeclipse.1191891722078"
-  context-root="/Struts_Demo_ThirdDemo"
+  context-root="Struts_Demo_ThirdDemo"
   j2ee-spec="5.0"
   archive="Struts_Demo_ThirdDemo.war">
   <attributes>

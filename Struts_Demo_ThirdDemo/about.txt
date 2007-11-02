@@ -1,0 +1,19 @@
+This demo using many technology of J2EE.
+List blow:
+
+Success to integrated is:
+1. Jasper Report
+2. Crystal Report
+3. DB connection with hibernate & JPA
+4. spring 2.0
+5. dojo AJAX
+6. struts 2.0
+7. struts 2.0 upload function
+8. i18n message
+
+In testing features:
+1. struts tiles
+2. custom JSP tag
+3. DB transaction
+4. custom Http Servlet
+5. FCK editor with upload file
