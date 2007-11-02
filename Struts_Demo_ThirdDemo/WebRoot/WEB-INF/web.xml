@@ -49,10 +49,10 @@
 		</filter-class>
 	</filter>
 
-	<filter-mapping>
+	<!-- filter-mapping>
 		<filter-name>struts-cleanup</filter-name>
-		<url-pattern>/*</url-pattern>
-	</filter-mapping>
+		<url-pattern>/gamiao/*</url-pattern>
+	</filter-mapping -->
 
 	<servlet>
 		<servlet-name>Connector</servlet-name>
@@ -85,7 +85,7 @@
 		</init-param>
 		<init-param>
 			<param-name>enabled</param-name>
-			<param-value>false</param-value>
+			<param-value>true</param-value>
 		</init-param>
 		<init-param>
 			<param-name>AllowedExtensionsFile</param-name>
@@ -119,15 +119,20 @@
 	<servlet-mapping>
 		<servlet-name>Connector</servlet-name>
 		<url-pattern>
-			/editor/filemanager/browser/default/connectors/jsp/connector
+			/FCKeditor/editor/filemanager/browser/default/connectors/jsp/connector
 		</url-pattern>
 	</servlet-mapping>
 
 	<servlet-mapping>
 		<servlet-name>SimpleUploader</servlet-name>
 		<url-pattern>
-			/editor/filemanager/upload/simpleuploader
+			/FCKeditor/editor/filemanager/upload/simpleuploader
 		</url-pattern>
 	</servlet-mapping>
+
+	<taglib>
+		<taglib-uri>/FCKeditor</taglib-uri>
+		<taglib-location>/WEB-INF/classes/FCKeditor.tld</taglib-location>
+	</taglib>
 
 </web-app>
