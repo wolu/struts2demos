@@ -1,6 +1,6 @@
-#Tue Oct 09 09:05:15 CST 2007
+#Mon Oct 22 10:10:11 CST 2007
 connectionInfoProperty=mysql5.0_localhost
 eclipse.preferences.version=1
 enableAnalysisProperty=true
-newCatalogProperty=quickstart
+newSchemaProperty=quickstart
 schemaProperty=quickstart
