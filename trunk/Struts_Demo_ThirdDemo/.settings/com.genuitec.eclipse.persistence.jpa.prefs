@@ -1,6 +1,6 @@
-#Mon Oct 22 10:10:11 CST 2007
-connectionInfoProperty=mysql5.0_localhost
+#Wed Nov 21 17:25:42 CST 2007
+connectionInfoProperty=mysql-connector-java-5.0.7
 eclipse.preferences.version=1
 enableAnalysisProperty=true
-newSchemaProperty=quickstart
-schemaProperty=quickstart
+newCatalogProperty=gamiao
+schemaProperty=gamiao
