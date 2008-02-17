@@ -1,0 +1,86 @@
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.objectFactory" value="spring" />
+	<constant name="struts.devMode" value="true" />
+
+	<package name="person" extends="struts-default">
+
+		<action name="list" method="execute" class="personAction">
+			<result>pages/list.jsp</result>
+			<result name="input">pages/list.jsp</result>
+		</action>
+
+		<action name="remove" class="personAction" method="remove">
+			<result>pages/list.jsp</result>
+			<result name="input">pages/list.jsp</result>
+		</action>
+
+		<action name="save" class="personAction" method="save">
+			<result>pages/list.jsp</result>
+			<result name="input">pages/list.jsp</result>
+		</action>
+	</package>
+
+	<package name="Struts_Demo_ThirdDemo_Report"
+		extends="struts-default">
+
+		<action name="generatePDFReport"
+			class="com.gamiao.struts2.demo.thirddemo.action.ReportAction"
+			method="generatePDFReport">
+		</action>
+
+		<action name="generateXLSReport"
+			class="com.gamiao.struts2.demo.thirddemo.action.ReportAction"
+			method="generateXLSReport">
+		</action>
+
+	</package>
+
+	<package name="Struts2_AJAX_DEMO_TREE" extends="struts-default">
+
+		<action name="DynamicTree"
+			class="com.gamiao.struts2.demo.thirddemo.action.DynamicTreeAction">
+			<result>Tree.jsp</result>
+		</action>
+
+		<action name="AjaxTree"
+			class="com.gamiao.struts2.demo.thirddemo.action.AjaxTreeAction">
+			<result>AjaxTree.jsp</result>
+			<result name="ajax" type="freemarker">AjaxTree.ftl</result>
+		</action>
+
+		<action name="AjaxTreeTheme"
+			class="com.gamiao.struts2.demo.thirddemo.action.AjaxTreeAction">
+			<result>AjaxTreeTheme.jsp</result>
+			<result name="ajax" type="freemarker">AjaxTree.ftl</result>
+		</action>
+
+	</package>
+
+	<package name="Struts2_AJAX_DEMO_JSON" extends="json-default">
+
+		<action name="JsonPlugin"
+			class="com.gamiao.struts2.demo.thirddemo.action.JsonPluginAction">
+			<result type="json" />
+		</action>
+
+		<action name="Autocompleter"
+			class="com.gamiao.struts2.demo.thirddemo.action.AutocompleterAction">
+			<result type="json">
+				<param name="root">names</param>
+			</result>
+		</action>
+
+	</package>
+
+	<package name="fileUploadDemo" extends="struts-default">
+		<action name="fileUpload"
+			class="com.gamiao.struts2.demo.thirddemo.action.FileUploadAction">
+			<interceptor-ref name="fileUploadStack" />
+			<result name="success">ShowUpload.jsp</result>
+		</action>
+	</package>
+
+</struts>
