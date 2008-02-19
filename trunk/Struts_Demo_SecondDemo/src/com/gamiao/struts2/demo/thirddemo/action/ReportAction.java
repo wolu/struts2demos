@@ -48,7 +48,7 @@ public class ReportAction extends ActionSupport {
 
 		// initial db connection for report
 		String dbDriver = "com.mysql.jdbc.Driver";
-		String dbURL = "jdbc:mysql://localhost/quickstart?user=root&password=gamiao&useUnicode=true&characterEncoding=gb2312";
+		String dbURL = "jdbc:mysql://localhost/gamiao?user=root&password=gamiao&useUnicode=true&characterEncoding=gb2312";
 		Class.forName(dbDriver);
 		Connection conn = DriverManager.getConnection(dbURL);
 
@@ -116,7 +116,7 @@ public class ReportAction extends ActionSupport {
 
 		// initial db connection for report
 		String dbDriver = "com.mysql.jdbc.Driver";
-		String dbURL = "jdbc:mysql://localhost/quickstart?user=root&password=gamiao&useUnicode=true&characterEncoding=gb2312";
+		String dbURL = "jdbc:mysql://localhost/gamiao?user=root&password=gamiao&useUnicode=true&characterEncoding=gb2312";
 		Class.forName(dbDriver);
 		Connection conn = DriverManager.getConnection(dbURL);
 
